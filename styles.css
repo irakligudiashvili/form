@@ -1,0 +1,204 @@
+@media screen and (min-width: 851px) {
+  .nav {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 10px;
+    width: 95%;
+    height: 70px;
+    border-style: solid;
+    border-width: 0px 0px 4px 0px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+  }
+  .nav-btn {
+    width: 95%;
+    background-color: #14a314;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    margin: auto;
+    height: 100%;
+    text-decoration: none;
+    line-height: 70px;
+  }
+  .nav-btn:hover {
+    background-color: #18c518;
+  }
+  .table {
+    margin: auto;
+    margin-top: 30px;
+    width: 95%;
+    background-color: #fff;
+  }
+  .table-tr-header {
+    border-style: solid;
+    border-width: 5px;
+  }
+  .table-th {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .table-td {
+    text-align: center;
+  }
+  .form {
+    margin: auto;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+    width: 800px;
+    margin-top: 50px;
+  }
+  .form-label {
+    margin: auto;
+    display: block;
+    width: 90%;
+    font-size: 24px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .form-input {
+    margin: auto;
+    display: block;
+    width: 90%;
+  }
+  .form-btn {
+    margin: auto;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    border-style: none;
+    background-color: #14a314;
+    font-size: 20px;
+    color: #fff;
+    height: 50px;
+  }
+  .form-btn:hover {
+    background-color: #18c518;
+  }
+  .error {
+    margin-left: 35px;
+    color: red;
+  }
+  .success {
+    width: 100%;
+    margin-left: 32vh;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .delete {
+    border-style: none;
+    background-color: crimson;
+    color: #fff;
+    width: 60px;
+    height: 25px;
+  }
+  .delete:hover {
+    background-color: #f51945;
+  }
+}
+@media screen and (max-width: 850px) {
+  .nav {
+    margin: auto;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-row-gap: 10px;
+    width: 95%;
+    height: 100px;
+    border-style: solid;
+    border-width: 0px 0px 4px 0px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+  }
+  .nav-btn {
+    width: 95%;
+    background-color: #14a314;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    margin: auto;
+    height: 100%;
+    text-decoration: none;
+    line-height: 50px;
+  }
+  .nav-btn:hover {
+    background-color: #18c518;
+  }
+  .table {
+    margin: auto;
+    margin-top: 30px;
+    width: 95%;
+    background-color: #fff;
+  }
+  .table-tr-header {
+    border-style: solid;
+    border-width: 5px;
+  }
+  .table-th {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .table-td {
+    text-align: center;
+  }
+  .form {
+    margin: auto;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+    width: 95%;
+    margin-top: 50px;
+  }
+  .form-label {
+    margin: auto;
+    display: block;
+    width: 90%;
+    font-size: 24px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .form-input {
+    margin: auto;
+    display: block;
+    width: 90%;
+  }
+  .form-btn {
+    margin: auto;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 4.5vw;
+    border-style: none;
+    background-color: #14a314;
+    font-size: 20px;
+    color: #fff;
+    height: 50px;
+  }
+  .form-btn:hover {
+    background-color: #18c518;
+  }
+  .error {
+    margin-left: 3vh;
+    color: red;
+  }
+  .success {
+    width: 100%;
+    margin-left: 10vh;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .delete {
+    border-style: none;
+    background-color: crimson;
+    color: #fff;
+    width: 60px;
+    height: 25px;
+  }
+  .delete:hover {
+    background-color: #f51945;
+  }
+}
